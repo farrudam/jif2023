@@ -252,7 +252,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(202, 206, 221, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -260,6 +260,7 @@ h6 {
   transition: 0.3s;
   position: relative;
   padding: 6px 4px;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .navbar a i,
@@ -481,7 +482,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(https://esifce2023.ifce.edu.br/assets/img/logo/background.png) top center;
+  background: url("https://jif2023.ifce.edu.br/assets/img/artes/IMG 1280x720_Prancheta 1.png") top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -638,8 +639,10 @@ h6 {
   line-height: 1;
   margin: 10px;
   color: #fff;
+  font-weight: bold;
   animation-delay: 0.8s;
-  border: 2px solid #2f9e41;
+  border: 2px solid #f82249;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #hero .about-btn:hover {
@@ -663,7 +666,7 @@ h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("https://img.pikbest.com/backgrounds/20220119/european-cup-football-players-green-carnival-background_6234453.jpg!sw800");
+  background: url("https://jif2023.ifce.edu.br/assets/img/artes/IMG 1280x720_Prancheta 1.png");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -679,7 +682,8 @@ h6 {
 
 #about:before {
   content: "";
-  background: rgba(78, 174, 62, 0.4);
+  /*background: rgba(78, 174, 62, 0.4);*/
+  background: rgba(13, 20, 41, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -921,16 +925,23 @@ h6 {
 }
 
 #schedule .schedule-item h4 span {
-  font-style: italic;
+  
   color: #19328e;
   font-weight: normal;
   font-size: 16px;
 }
 
-#schedule .schedule-item p {
-  font-style: italic;
-  color: #152b79;
+#schedule .schedule-item p {  
+  color: #2f9e41;
   margin-bottom: 0;
+}
+
+#schedule .schedule-item p span {  
+  color: #19328e;  
+}
+
+#schedule .schedule-item span {  
+  color: #284dd1;  
 }
 
 /*--------------------------------------------------------------
@@ -949,13 +960,13 @@ h6 {
   height: 100%;
   min-height: 300px; 
 }
-.venue-tiangua {
-  background: url("https://sistemas.tiangua.ifce.edu.br/templates/02/assets/img/tiangua/10.jpg") top center no-repeat;
+.venue-cfo {
+  background: url("https://jif2023.ifce.edu.br/assets/img/locais/cfo.jpeg") top center no-repeat;
   
 }
 
-.venue-ubajara {
-  background: url("https://images.even3.com.br/5cH_xIDKuwLV6tUNjgy3QH9mFEQ=/1100x440/smart/even3.blob.core.windows.net/banner/IMAGE003.d5a19ef6dd7343fe943a.jpeg") top center no-repeat;
+.venue-ufc {
+  background: url("https://jif2023.ifce.edu.br/assets/img/locais/pista_atletismo_UFC.jpg") top center no-repeat;
 }
 
 #venue .venue-info {
@@ -1407,6 +1418,56 @@ h6 {
 #contact .contact-email {
   margin-bottom: 20px;
 }
+
+
+/*--------------------------------------------------------------
+# Comunicacao Section
+--------------------------------------------------------------*/
+#comunicacao {
+  padding: 60px 0;
+}
+
+#comunicacao .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#comunicacao .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+
+#comunicacao .contact-info address,
+#comunicacao .contact-info p {
+  margin-bottom: 0;
+  color: #112363;
+}
+
+#comunicacao .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #112363;
+}
+
+#comunicacao .contact-info a {
+  color: #4869df;
+}
+
+#comunicacao .contact-info a:hover {
+  color: #f82249;
+}
+
+#comunicacao .contact-address,
+#comunicacao .contact-phone,
+#comunicacao .contact-email {
+  margin-bottom: 20px;
+}
+
+
 
 @media (min-width: 768px) {
 
