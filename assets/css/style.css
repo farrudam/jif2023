@@ -1468,6 +1468,100 @@ h6 {
 }
 
 
+/*--------------------------------------------------------------
+# Boletins Section
+--------------------------------------------------------------*/
+#boletins {
+  padding: 60px 0;
+}
+
+#boletins .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#boletins .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+
+#boletins .contact-info address,
+#boletins .contact-info p {
+  margin-bottom: 0;
+  color: #112363;
+}
+
+#boletins .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #112363;
+}
+
+#boletins .contact-info a {
+  color: #4869df;
+}
+
+#boletins .contact-info a:hover {
+  color: #f82249;
+}
+
+#boletins .contact-address,
+#boletins .contact-phone,
+#boletins .contact-email {
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# Regulamentos Section
+--------------------------------------------------------------*/
+#regulamentos {
+  padding: 60px 0;
+}
+
+#regulamentos .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#regulamentos .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+
+#regulamentos .contact-info address,
+#regulamentos .contact-info p {
+  margin-bottom: 0;
+  color: #112363;
+}
+
+#regulamentos .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #112363;
+}
+
+#regulamentos .contact-info a {
+  color: #4869df;
+}
+
+#regulamentos .contact-info a:hover {
+  color: #f82249;
+}
+
+#regulamentos .contact-address,
+#regulamentos .contact-phone,
+#regulamentos .contact-email {
+  margin-bottom: 20px;
+}
+
 
 @media (min-width: 768px) {
 
