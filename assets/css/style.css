@@ -1468,6 +1468,10 @@ h6 {
 }
 
 
+#comunicacao .contact-phone a i:hover {
+  color: #2f9e41;
+}
+
 /*--------------------------------------------------------------
 # Boletins Section
 --------------------------------------------------------------*/
@@ -1513,6 +1517,10 @@ h6 {
 #boletins .contact-phone,
 #boletins .contact-email {
   margin-bottom: 20px;
+}
+
+#boletins .contact-phone a i:hover {
+  color: #2f9e41;
 }
 
 /*--------------------------------------------------------------
@@ -1562,6 +1570,9 @@ h6 {
   margin-bottom: 20px;
 }
 
+#regulamentos .contact-email a i:hover {
+  color: #2f9e41;
+}
 
 @media (min-width: 768px) {
 
